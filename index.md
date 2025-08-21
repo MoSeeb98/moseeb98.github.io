@@ -2,7 +2,7 @@
 layout: single
 title: "Moritz Seebacher"
 classes: wide
-author_profile: false
+author_profile: true
 ---
 
 Hi! I am a PhD student at the ifo Center for the Economics of Education and LMU in Munich. My research focuses on labor and education economics primarily using Big Data from LinkedIn profiles.
