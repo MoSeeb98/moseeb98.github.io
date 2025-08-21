@@ -3,15 +3,25 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Enlarge the author avatar in the sidebar/card */
-.sidebar .author__avatar { max-width: 250px; }
+@media (min-width: 1024px) {
+  .page__sidebar {
+    flex: 0 0 420px;
+    max-width: 420px;
+  }
+}
+
+.sidebar .author__avatar {
+  max-width: 450px;
+  margin: 0 auto; /* center it */
+}
 .sidebar .author__avatar img {
   width: 100%;
   height: auto;
   border-radius: 50%;
 }
 
-/* Optional: slightly smaller on phones */
+/* Keep it reasonable on phones */
 @media (max-width: 800px) {
-  .sidebar .author__avatar { max-width: 170px; }
+  .sidebar .author__avatar { max-width: 220px; }
 }
+
