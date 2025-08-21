@@ -19,8 +19,11 @@ locale: en
 
 # Minimal Mistakes via remote theme
 remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Markdown & permalinks
 markdown: kramdown
