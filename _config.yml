@@ -1,0 +1,36 @@
+title: "Moritz Seebacher"
+description: "Research • Education & Labor Economics"
+url: "https://moritzseebacher.github.io"
+baseurl: ""
+timezone: Europe/Berlin
+locale: en
+
+# Minimal Mistakes via remote theme
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+# Optional top nav (anchors jump to sections on the home page)
+nav:
+  main:
+    - title: "Publications"
+      url: "/#publications"
+    - title: "Working Papers"
+      url: "/#working-papers"
+    - title: "Work in Progress"
+      url: "/#work-in-progress"
+    - title: "Policy Papers"
+      url: "/#policy-papers-non-refereed"
+    - title: "CV"
+      url: "/#cv"
+    - title: "Contact"
+      url: "/#contact"
+
+# Markdown & permalinks
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:title/
+
+# (Optional) pick a skin: default, air, contrast, dark, neon, sunrise, etc.
+minimal_mistakes_skin: "default"
