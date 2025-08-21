@@ -1,0 +1,13 @@
+  main:
+    - title: "Publications"
+      url: "/#publications"
+    - title: "Working Papers"
+      url: "/#working-papers"
+    - title: "Work in Progress"
+      url: "/#work-in-progress"
+    - title: "Policy Papers"
+      url: "/#policy-papers-non-refereed"
+    - title: "CV"
+      url: "/#cv"
+    - title: "Contact"
+      url: "/#contact"
