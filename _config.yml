@@ -22,22 +22,6 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
-# Optional top nav (anchors jump to sections on the home page)
-nav:
-  main:
-    - title: "Publications"
-      url: "/#publications"
-    - title: "Working Papers"
-      url: "/#working-papers"
-    - title: "Work in Progress"
-      url: "/#work-in-progress"
-    - title: "Policy Papers"
-      url: "/#policy-papers-non-refereed"
-    - title: "CV"
-      url: "/#cv"
-    - title: "Contact"
-      url: "/#contact"
-
 # Markdown & permalinks
 markdown: kramdown
 kramdown:
