@@ -27,19 +27,13 @@
 }
 
 /* --- PHONES (and small tablets) --- */
-@media (max-width: 800px) {
-  .sidebar .author__avatar {
-    width: min(80vw, 250px) !important;  
-    max-width: none !important;
-    margin: 0 auto;                      
-  }
+@media (max-width: 800px) { 
+  .sidebar .author__avatar { max-width: 240px; } 
+}
 
   .sidebar .author__avatar img {
-    width: 100% !important;
-    height: auto !important;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 50%;                  
-    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0;                  
   }
 }
