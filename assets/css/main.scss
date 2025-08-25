@@ -6,34 +6,43 @@
 /* --- DESKTOP & LARGE TABLETS --- */
 @media (min-width: 1024px) {
   .page__sidebar {
-    flex: 0 0 360px;   
+    flex: 0 0 360px;
     max-width: 360px;
+  }
+
+  /* Fill sidebar width on desktop */
+  .sidebar .author__avatar {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .sidebar .author__avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;     /* square box */
+    object-fit: cover;       /* neat crop */
+    border-radius: 50%;      /* circle on desktop */
   }
 }
 
-.sidebar .author__avatar {
-  display: block;
-  width: 100% !important;
-  max-width: 100% !important;   
-  margin: 0;
-}
-
-.sidebar .author__avatar img {
-  display: block;
-  width: 100% !important;
-  max-width: none !important;   
-  height: auto !important;
-  border-radius: 50% !important;  
-}
-
 /* --- PHONES (and small tablets) --- */
-@media (max-width: 800px) { 
-  .sidebar .author__avatar { max-width: 240px; } 
-}
+@media (max-width: 800px) {
+  /* Make the avatar smaller and centered on mobile */
+  .sidebar .author__avatar {
+    width: min(60vw, 220px);
+    max-width: none;
+    margin: 0 auto;
+  }
 
   .sidebar .author__avatar img {
     width: 100%;
     height: auto;
-    border-radius: 0;                  
+    aspect-ratio: auto !important;  /* cancel the square */
+    object-fit: contain !important; /* no crop; natural rectangle */
+    border-radius: 0 !important;    /* rectangular on mobile */
+    display: block;
   }
 }
