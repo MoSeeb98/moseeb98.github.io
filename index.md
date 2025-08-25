@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Welcome
-Hi there! I am a PhD student at the [ifo Center for the Economics of Education](https://www.ifo.de/en/research/ifo-center-for-the-economics-of-education) and [LMU](https://www.lmu.de/en/index.html) in Munich. My research focuses on labor and education economics primarily using Big Data from LinkedIn profiles.
+Hi there! I am a PhD student at the [ifo Center for the Economics of Education](https://www.ifo.de/en/research/ifo-center-for-the-economics-of-education) and [LMU](https://www.lmu.de/en/index.html) in Munich. I will be visiting the Yale Department of Economics this fall term for a research stay. Primary research fields: labor and education economics.
 
 ---
 
