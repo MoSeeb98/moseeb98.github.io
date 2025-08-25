@@ -3,43 +3,39 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* --- DESKTOP & LARGE TABLETS --- */
+/* --- widen sidebar if you want more room on desktop (optional) --- */
 @media (min-width: 1024px) {
   .page__sidebar {
-    flex: 0 0 560px;    
+    flex: 0 0 560px; 
     max-width: 560px;
   }
+}
 
-  .sidebar .author__avatar {
-    width: 100% !important;
-    max-width: none !important;
-    margin: 0;
-  }
+.sidebar .author__avatar {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;  
+  margin: 0;
+}
 
-  .sidebar .author__avatar img {
+.sidebar .author__avatar img {
     width: 100% !important;
     height: auto !important;
-    aspect-ratio: 1 / 1;        
-    object-fit: cover;          
-    border-radius: 50%;      
+    border-radius: 50%;                 
     display: block;
-  }
 }
 
 /* --- PHONES (and small tablets) --- */
 @media (max-width: 800px) {
-  /* Make the avatar much smaller and centered */
   .sidebar .author__avatar {
-    width: min(60vw, 220px) !important;  
+    width: min(100vw, 260px) !important;  
     max-width: none !important;
-    margin: 0 auto;                     
+    margin: 0 auto;                      
   }
 
   .sidebar .author__avatar img {
     width: 100% !important;
     height: auto !important;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
     border-radius: 50%;                 
     display: block;
   }
