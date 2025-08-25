@@ -5,23 +5,25 @@
 
 @media (min-width: 1024px) {
   .page__sidebar {
-    flex: 0 0 420px;
-    max-width: 420px;
+    flex: 0 0 520px;   
+    max-width: 520px;
+  }
+
+  .sidebar .author__avatar {
+    max-width: 520px;
+    margin: 0 auto;
   }
 }
 
-.sidebar .author__avatar {
-  max-width: 450px;
-  margin: 0 auto; /* center it */
-}
+/* Avatar styling */
 .sidebar .author__avatar img {
   width: 100%;
   height: auto;
   border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
-/* Keep it reasonable on phones */
 @media (max-width: 800px) {
-  .sidebar .author__avatar { max-width: 220px; }
+  .sidebar .author__avatar { max-width: 240px; }
 }
-
