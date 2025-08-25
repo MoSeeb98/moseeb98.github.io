@@ -12,8 +12,8 @@ author:
 
 title: "Moritz Seebacher"
 description: "Research • Education & Labor Economics"
-url: "moritzseebacher.github.io"
-baseurl: ""
+url: "https://moseeb98.github.io"
+baseurl: "/moritzseebacher.github.io"
 timezone: Europe/Berlin
 locale: en
 
