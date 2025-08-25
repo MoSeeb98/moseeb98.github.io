@@ -5,18 +5,20 @@
 
 @media (min-width: 1024px) {
   .page__sidebar {
-    flex: 0 0 520px;   
-    max-width: 520px;
+    flex: 0 0 600px;     
+    max-width: 600px;
   }
 
+  /* Use a hard width (not max-width) to override theme defaults */
   .sidebar .author__avatar {
-    max-width: 520px;
+    width: 560px;        
+    max-width: none;
     margin: 0 auto;
   }
 }
 
-/* Avatar styling */
 .sidebar .author__avatar img {
+  display: block;
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -25,5 +27,8 @@
 }
 
 @media (max-width: 800px) {
-  .sidebar .author__avatar { max-width: 240px; }
+  .sidebar .author__avatar {
+    width: min(90vw, 380px);   
+    max-width: none;
+  }
 }
