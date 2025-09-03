@@ -10,7 +10,6 @@
     max-width: 360px;
   }
 
-  /* Fill sidebar width on desktop */
   .sidebar .author__avatar {
     display: block;
     width: 100%;
@@ -22,9 +21,10 @@
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 1 / 1;     /* square box */
-    object-fit: cover;       /* neat crop */
-    border-radius: 50%;      /* circle on desktop */
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;       
+    object-position: 50% 30%;
+    border-radius: 50%;      
   }
 }
 
