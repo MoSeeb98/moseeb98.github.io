@@ -5,8 +5,8 @@ classes: wide
 author_profile: true
 ---
 
-## Welcome
-I am a PhD student at the [ifo Center for the Economics of Education](https://www.ifo.de/en/research/ifo-center-for-the-economics-of-education) and [LMU](https://www.lmu.de/en/index.html) Munich. This fall, I will be a visiting researcher in the [Department of Economics at Yale University](https://economics.yale.edu/about-economics). My research focuses on labor and education economics, primarily using LinkedIn data to study skills, careers, and labor market inequality.
+## Welcome!
+I am a PhD student at the [ifo Center for the Economics of Education](https://www.ifo.de/en/research/ifo-center-for-the-economics-of-education) and [LMU](https://www.lmu.de/en/index.html) Munich, currently doing a research stay at the [Yale Department of Economics](https://economics.yale.edu/about-economics). I am an applied microeconomist working at the intersection of education and labor economics. My research primarily uses LinkedIn data to study how skills, social connections, and technological change shape career trajectories and labor market inequality.
 
 ---
 
