@@ -46,5 +46,5 @@ You can find my CV **[here](/CV_Academic_Moritz_Seebacher_09_25.pdf)**.
 
 ## Contact {#contact}
 
-- **Email:** <a href="mailto:seebacher@ifo.de">seebacher@ifo.de</a>  
+- **Email:** <a href="mailto:seebacher@ifo.de">seebacher@ifo.de</a>; <a href="mailto:moritz.seebacher@yale.edu">moritz.seebacher@yale.edu</a>  
 - **LinkedIn:** <a href="https://www.linkedin.com/in/moritz-seebacher-853974223/">linkedin.com/in/moritz-seebacher-853974223/</a>
