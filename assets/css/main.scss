@@ -5,28 +5,26 @@
 
 /* --- DESKTOP & LARGE TABLETS --- */
 @media (min-width: 1024px) {
-  .page__sidebar {
-    flex: 0 0 360px;
-    max-width: 360px;
-  }
-
   .sidebar .author__avatar {
     display: block;
     width: 100%;
-    max-width: 100%;
-    margin: 0;
+    max-width: none;     /* remove hidden caps */
+    padding: 0;          /* just in case the wrapper had padding */
+    box-sizing: border-box;
   }
 
   .sidebar .author__avatar img {
     display: block;
     width: 100%;
+    max-width: none;     /* remove hidden caps */
     height: auto;
-    aspect-ratio: 1 / 1; 
-    object-fit: cover;       
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     object-position: 50% 15%;
-    border-radius: 50%;      
+    border-radius: 50%;
   }
 }
+
 
 /* --- PHONES (and small tablets) --- */
 @media (max-width: 800px) {
