@@ -7,16 +7,17 @@
 @media (min-width: 1024px) {
   .sidebar .author__avatar {
     display: block;
-    width: 100%;
-    max-width: none;     /* remove hidden caps */
-    padding: 0;          /* just in case the wrapper had padding */
+    width: 75%;           /* 3/4 of the sidebar */
+    max-width: none;
+    margin: 0 auto;       /* center inside sidebar */
+    padding: 0;
     box-sizing: border-box;
   }
 
   .sidebar .author__avatar img {
     display: block;
-    width: 100%;
-    max-width: none;     /* remove hidden caps */
+    width: 100%;          /* fill the 75% wrapper */
+    max-width: none;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
