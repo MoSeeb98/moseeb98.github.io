@@ -1,12 +1,12 @@
 author:
   name: "Moritz Seebacher"
   avatar: "/Seebacher-Moritz_2023_7_ret_pass_format.jpg"
-  bio: "PhD student at the ifo Center for the Economics of Education and LMU Munich."
+  bio: "PhD student at the ifo Institute and LMU Munich."
   links:
-    - label: "Email"
+    - label: ""
       icon: "fas fa-envelope"
       url: "mailto:seebacher@ifo.de"
-    - label: "LinkedIn"
+    - label: ""
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/moritz-seebacher-853974223/"
 
