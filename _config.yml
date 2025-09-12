@@ -3,10 +3,10 @@ author:
   avatar: "/Seebacher-Moritz_2023_7_ret_pass_format.jpg"
   bio: "PhD student at the ifo Institute and LMU Munich."
   links:
-    - label: ""
+    - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:seebacher@ifo.de"
-    - label: ""
+    - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/moritz-seebacher-853974223/"
 
