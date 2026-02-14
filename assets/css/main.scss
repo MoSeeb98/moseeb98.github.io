@@ -7,22 +7,22 @@
 @media (min-width: 1024px) {
   .sidebar .author__avatar {
     display: block;
-    width: 70%;        /* 3/4 of the sidebar */
+    width: 85%;
     max-width: none;
-    margin: 0;         /* <-- no auto centering */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: left;  /* guard in case a parent centers content */
+    text-align: left;
   }
 
   .sidebar .author__avatar img {
     display: block;
-    width: 100%;       /* fill the 75% wrapper */
+    width: 100%;
     max-width: none;
     height: auto;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
-    object-position: 50% 10%;
+    object-position: 50% 15%;
     border-radius: 50%;
   }
 }
