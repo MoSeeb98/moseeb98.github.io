@@ -19,8 +19,8 @@ I am a PhD student at the [ifo Center for the Economics of Education](https://ww
 
 ## Working Papers {#working-papers}
 
-- [Multidimensional Skills on LinkedIn Profiles: Measuring Human Capital and the Gender Skill Gap](https://www.ifo.de/en/cesifo/publications/2025/working-paper/multidimensional-skills-linkedin-profiles-measuring-human-capital) (with David Dorn, Florian Schoner, Lisa Simon, Ludger Woessmann)  
-  <small><strong>CESifo Working Paper</strong> No. 11846 (2025).</small>
+- [Multidimensional Skills on LinkedIn Profiles: Measuring Human Capital and the Gender Skill Gap](https://www.iza.org/publications/dp/17896/multidimensional-skills-on-linkedin-profiles-measuring-human-capital-and-the-gender-skill-gap) (with David Dorn, Florian Schoner, Lisa Simon, Ludger Woessmann)
+  <small><strong>IZA Discussion Paper</strong> No. 17896 (2025).</small>
 
 ---
 
